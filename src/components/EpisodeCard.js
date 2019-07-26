@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon, List } from "semantic-ui-react";
 
-export default function LocationCard({ name, type, dimension, residents }) {
+export default function LocationCard({ name, airDate, episode, characters }) {
   // image={image}
   return (
     <List>
@@ -10,15 +10,15 @@ export default function LocationCard({ name, type, dimension, residents }) {
         <List.Content>
           <List.Header>{name}</List.Header>
           <List.Description>
-            {type} : {dimension}
+            {airDate} : {episode}
           </List.Description>
         </List.Content>
       </List.Item>
       <List.Item as="a">
         <Icon name="right triangle" />
         <List.Content>
-          <List.Header>Residents</List.Header>
-          <List.Description>{}</List.Description>
+          <List.Header>Characters</List.Header>
+          <List.Description>Test test test</List.Description>
         </List.Content>
       </List.Item>
       {/* <List.Item>
