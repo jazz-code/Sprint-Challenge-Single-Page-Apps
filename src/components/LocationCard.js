@@ -18,7 +18,7 @@ export default function LocationCard({ name, type, dimension, residents }) {
         <Icon name="right triangle" />
         <List.Content>
           <List.Header>Residents</List.Header>
-          <List.Description>{}</List.Description>
+          <List.Description>{residents}</List.Description>
         </List.Content>
       </List.Item>
       {/* <List.Item>

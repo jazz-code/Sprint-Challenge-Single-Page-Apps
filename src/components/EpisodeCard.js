@@ -18,7 +18,7 @@ export default function LocationCard({ name, airDate, episode, characters }) {
         <Icon name="right triangle" />
         <List.Content>
           <List.Header>Characters</List.Header>
-          <List.Description>Test test test</List.Description>
+          <List.Description>{characters}</List.Description>
         </List.Content>
       </List.Item>
       {/* <List.Item>

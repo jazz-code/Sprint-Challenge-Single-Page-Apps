@@ -22,7 +22,7 @@ export default function EpisodeList() {
           name={episode.name}
           airDate={episode.air_date}
           episode={episode.episode}
-          characters={episode.characters}
+          characters={episode.characters.length}
         />
       ))}
     </section>

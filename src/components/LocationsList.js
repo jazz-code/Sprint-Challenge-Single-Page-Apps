@@ -22,7 +22,7 @@ export default function LocationsList() {
           name={location.name}
           type={location.type}
           dimension={location.dimension}
-          residents={location.residents}
+          residents={location.residents.length}
         />
       ))}
     </section>
